@@ -144,8 +144,8 @@ body {
 
 @media screen and (min-width: 768px) {
   .banner {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.4))), url(Images/bgheader.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(Images/bgheader.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.4))), url(/Images/bgheader.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(/Images/bgheader.jpg);
   }
   .banner .banner__header .banner__hamburguer {
     width: 40px;
@@ -172,8 +172,8 @@ body {
 
 @media screen and (min-width: 1300px) {
   .banner {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.8))), url(Images/bgheader.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(Images/bgheader.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.8))), url(/Images/bgheader.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(/Images/bgheader.jpg);
   }
   .banner .banner__header .banner__hamburguer {
     width: 30px;
