@@ -662,17 +662,18 @@ body {
   color: #fff;
 }
 
-.page__projects .projects__content .card .card__info button {
+.page__projects .projects__content .card .card__info a {
   padding: 0.2rem 1rem;
   border-radius: 6px;
   margin-top: 1rem;
-  font-size: 0.7rem;
+  font-size: .8rem;
   font-family: "Mulish", serif;
-  letter-spacing: .1rem;
   color: #fff;
+  text-decoration: none;
   background: #7F00FF;
   background: -webkit-gradient(linear, left top, right top, from(#E100FF), to(#7F00FF));
   background: linear-gradient(to right, #E100FF, #7F00FF);
+  letter-spacing: .1rem;
 }
 
 .page__projects .projects__content #card1 {

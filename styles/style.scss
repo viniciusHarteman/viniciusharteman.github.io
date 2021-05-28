@@ -518,16 +518,17 @@
                     font-size: 1rem;
                     color: #fff;
                 }
-                button{
+                a{
                     padding: 0.2rem 1rem;
                     border-radius: 6px;
                     margin-top: 1rem;
-                    font-size: 0.7rem;
+                    font-size: .8rem;
                     font-family: $font-second;
-                    letter-spacing: .1rem;
                     color:#fff;
+                    text-decoration: none;
                     background: $azul-magenta;
                     background: linear-gradient(to right, $pinkish-purple, $azul-magenta);
+                    letter-spacing: .1rem;
                 }
             }
 
