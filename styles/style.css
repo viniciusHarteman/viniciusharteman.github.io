@@ -30,8 +30,8 @@ body {
 .banner {
   min-height: 100vh;
   padding: 0 5%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.2))), url(/Images/bgheader.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(/Images/bgheader.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.2))), url(Images/bgheader.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(Images/bgheader.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -144,8 +144,8 @@ body {
 
 @media screen and (min-width: 768px) {
   .banner {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.4))), url(/Images/bgheader.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(/Images/bgheader.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.4))), url(Images/bgheader.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(Images/bgheader.jpg);
   }
   .banner .banner__header .banner__hamburguer {
     width: 40px;
@@ -172,8 +172,8 @@ body {
 
 @media screen and (min-width: 1300px) {
   .banner {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.8))), url(/Images/bgheader.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(/Images/bgheader.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.8))), url(Images/bgheader.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(Images/bgheader.jpg);
   }
   .banner .banner__header .banner__hamburguer {
     width: 30px;
@@ -268,7 +268,7 @@ body {
 .sidebar .menu .language .flags #brasil {
   width: 35px;
   height: 35px;
-  background-image: url("/Images/bandeira-do-brasil.png");
+  background-image: url("Images/bandeira-do-brasil.png");
   background-size: cover;
   text-align: center;
 }
@@ -281,7 +281,7 @@ body {
 .sidebar .menu .language .flags #eua {
   width: 35px;
   height: 35px;
-  background-image: url("/Images/estados-unidos.png");
+  background-image: url("Images/estados-unidos.png");
   background-size: cover;
   text-align: center;
 }
@@ -401,7 +401,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .page__about .about__content {
-    background-image: url(/Images/img_about.png);
+    background-image: url(Images/img_about.png);
     background-size: 380px;
     background-repeat: no-repeat;
     background-position-x: right;
@@ -417,7 +417,7 @@ body {
 
 @media screen and (min-width: 1300px) {
   .page__about .about__content {
-    background-image: url(/Images/img_about.png);
+    background-image: url(Images/img_about.png);
     background-size: 550px;
     background-repeat: no-repeat;
     background-position-x: right;
@@ -482,7 +482,7 @@ body {
         grid-template-columns: repeat(18, 2.5rem);
     -ms-grid-rows: (2rem)[27];
         grid-template-rows: repeat(27, 2rem);
-    background-image: url(/Images/fundoConhecimento.png);
+    background-image: url(Images/fundoConhecimento.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -677,21 +677,21 @@ body {
 }
 
 .page__projects .projects__content #card1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.7))), url(/Images/bgheader.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(/Images/bgheader.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.7))), url(Images/bgheader.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(Images/bgheader.jpg);
   background-position: center;
 }
 
 .page__projects .projects__content #card2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.7))), url(/Images/imgprojeto2.png);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(/Images/imgprojeto2.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.7))), url(Images/imgprojeto2.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(Images/imgprojeto2.png);
   background-color: #000;
   background-position: bottom;
 }
 
 .page__projects .projects__content #card3 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.7))), url(/Images/imgprojeto2.png);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(/Images/imgprojeto2.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.7))), url(Images/imgprojeto2.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(Images/imgprojeto2.png);
   background-color: #000;
   background-position: bottom;
 }
@@ -780,7 +780,7 @@ body {
 .contacts__page .contacts__content .img__contact {
   width: 100%;
   height: 18rem;
-  background-image: url(/Images/contatoimg.png);
+  background-image: url(Images/contatoimg.png);
   background-size: cover;
 }
 
