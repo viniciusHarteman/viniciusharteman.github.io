@@ -115,7 +115,7 @@
     }
     // tela minimo 1300px
     @media screen and (min-width: 1300px ) {
-        background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(/Images/bgheader.jpg);
+        background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../Images/bgheader.jpg);
         .banner__header{
             .banner__hamburguer{
                 width: 30px;
