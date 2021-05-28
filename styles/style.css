@@ -1,4 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+@import url(/styles/reset.css);
+@import url(/styles/variables.css);
 :root {
   font-size: 16px;
   font-family: 'Baloo 2', sans-serif;
@@ -30,7 +32,7 @@ body {
 .banner {
   min-height: 100vh;
   padding: 0 5%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.2))), url(/Images/bgheader.jpg);
+  
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(/Images/bgheader.jpg);
   background-attachment: fixed;
   background-position: center;
@@ -476,12 +478,9 @@ body {
 
 @media screen and (min-width: 768px) {
   .knowledge__page .knowledge__content {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (2.5rem)[18];
-        grid-template-columns: repeat(18, 2.5rem);
-    -ms-grid-rows: (2rem)[27];
-        grid-template-rows: repeat(27, 2rem);
+    grid-template-columns: repeat(18, 2.5rem);
+    grid-template-rows: repeat(27, 2rem);
     background-image: url(/Images/fundoConhecimento.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -547,11 +546,9 @@ body {
   .knowledge__page .knowledge__content {
     min-height: 80vh;
     padding: 0 3%;
-    -ms-grid-columns: (30px)[41];
-        grid-template-columns: repeat(41, 30px);
-    -ms-grid-rows: (19px)[27];
-        grid-template-rows: repeat(27, 19px);
-    background-size: 110vh;
+    grid-template-columns: repeat(41, 30px);
+    grid-template-rows: repeat(27, 19px);
+    background-size:110vh;
   }
   .knowledge__page .knowledge__content .knowledge__div div {
     text-shadow: 2px 1px 2px #000;
