@@ -357,7 +357,7 @@
 //knowledge page
 .knowledge__page{
     min-height: 100vh;
-    background: linear-gradient(to top, $background-page3, $background-page);
+    background: $background-page3;
     .knowledge__content{
         min-height: 90vh;
         padding: 3% 3%;
@@ -395,6 +395,7 @@
             display: grid;
             grid-template-columns: repeat(18, 2.5rem);
             grid-template-rows: repeat(27, 2rem);
+            background: linear-gradient(to top, $background-page3, $background-page);
             background-image: url(../Images/fundoConhecimento.png);
             background-size: 100%;
             background-repeat: no-repeat;
@@ -754,9 +755,6 @@
                     right: 270px;
                     #line1{
                         transform: rotate(45deg) translate(9px, 6.2px);
-                    }
-                    #line3{
-                        transform: rotate(-45deg) translate(.25rem, -.25rem);
                     }
                 }
             }

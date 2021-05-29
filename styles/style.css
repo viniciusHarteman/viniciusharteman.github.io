@@ -379,7 +379,7 @@ body {
 
 .page__about {
   min-height: 100vh;
-  background-color: #C0B5BC;
+  background-color: #c2c2c2;
 }
 
 .page__about .about__content {
@@ -432,8 +432,7 @@ body {
 
 .knowledge__page {
   min-height: 100vh;
-  background: -webkit-gradient(linear, left bottom, left top, from(#DCDCDC), to(#C0B5BC));
-  background: linear-gradient(to top, #DCDCDC, #C0B5BC);
+  background: #DCDCDC;
 }
 
 .knowledge__page .knowledge__content {
@@ -482,6 +481,8 @@ body {
         grid-template-columns: repeat(18, 2.5rem);
     -ms-grid-rows: (2rem)[27];
         grid-template-rows: repeat(27, 2rem);
+    background: -webkit-gradient(linear, left bottom, left top, from(#DCDCDC), to(#c2c2c2));
+    background: linear-gradient(to top, #DCDCDC, #c2c2c2);
     background-image: url(../Images/fundoConhecimento.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -618,8 +619,8 @@ body {
 
 .page__projects {
   min-height: 100vh;
-  background: -webkit-gradient(linear, left bottom, left top, from(#C0B5BC), to(#DCDCDC));
-  background: linear-gradient(to top, #C0B5BC, #DCDCDC);
+  background: -webkit-gradient(linear, left bottom, left top, from(#c2c2c2), to(#DCDCDC));
+  background: linear-gradient(to top, #c2c2c2, #DCDCDC);
 }
 
 .page__projects .projects__content {
@@ -762,8 +763,8 @@ body {
 
 .contacts__page {
   min-height: 100vh;
-  background: -webkit-gradient(linear, left bottom, left top, from(#DCDCDC), to(#C0B5BC));
-  background: linear-gradient(to top, #DCDCDC, #C0B5BC);
+  background: -webkit-gradient(linear, left bottom, left top, from(#DCDCDC), to(#c2c2c2));
+  background: linear-gradient(to top, #DCDCDC, #c2c2c2);
 }
 
 .contacts__page .contacts__content {
@@ -917,10 +918,6 @@ body {
   .show__menu .banner .banner__header .banner__hamburguer #line1 {
     -webkit-transform: rotate(45deg) translate(9px, 6.2px);
             transform: rotate(45deg) translate(9px, 6.2px);
-  }
-  .show__menu .banner .banner__header .banner__hamburguer #line3 {
-    -webkit-transform: rotate(-45deg) translate(0.25rem, -0.25rem);
-            transform: rotate(-45deg) translate(0.25rem, -0.25rem);
   }
 }
 /*# sourceMappingURL=style.css.map */
