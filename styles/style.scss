@@ -357,7 +357,7 @@
 //knowledge page
 .knowledge__page{
     min-height: 100vh;
-    background: $background-page3;
+    background: linear-gradient(to top, $background-page3, $background-page3);
     .knowledge__content{
         min-height: 90vh;
         padding: 3% 3%;
@@ -391,11 +391,11 @@
     }
     //tela minimo 768px
     @media screen and (min-width: 768px){
+        background: linear-gradient(to top, $background-page3, $background-page);
         .knowledge__content{
             display: grid;
             grid-template-columns: repeat(18, 2.5rem);
             grid-template-rows: repeat(27, 2rem);
-            background: linear-gradient(to top, $background-page3, $background-page);
             background-image: url(../Images/fundoConhecimento.png);
             background-size: 100%;
             background-repeat: no-repeat;

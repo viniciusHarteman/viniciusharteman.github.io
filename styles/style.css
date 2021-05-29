@@ -432,7 +432,8 @@ body {
 
 .knowledge__page {
   min-height: 100vh;
-  background: #DCDCDC;
+  background: -webkit-gradient(linear, left bottom, left top, from(#DCDCDC), to(#DCDCDC));
+  background: linear-gradient(to top, #DCDCDC, #DCDCDC);
 }
 
 .knowledge__page .knowledge__content {
@@ -474,6 +475,10 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .knowledge__page {
+    background: -webkit-gradient(linear, left bottom, left top, from(#DCDCDC), to(#c2c2c2));
+    background: linear-gradient(to top, #DCDCDC, #c2c2c2);
+  }
   .knowledge__page .knowledge__content {
     display: -ms-grid;
     display: grid;
@@ -481,8 +486,6 @@ body {
         grid-template-columns: repeat(18, 2.5rem);
     -ms-grid-rows: (2rem)[27];
         grid-template-rows: repeat(27, 2rem);
-    background: -webkit-gradient(linear, left bottom, left top, from(#DCDCDC), to(#c2c2c2));
-    background: linear-gradient(to top, #DCDCDC, #c2c2c2);
     background-image: url(../Images/fundoConhecimento.png);
     background-size: 100%;
     background-repeat: no-repeat;
