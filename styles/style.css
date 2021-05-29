@@ -915,8 +915,12 @@ body {
     right: 270px;
   }
   .show__menu .banner .banner__header .banner__hamburguer #line1 {
-    -webkit-transform: rotate(45deg) translate(9px, 6px);
-            transform: rotate(45deg) translate(9px, 6px);
+    -webkit-transform: rotate(45deg) translate(9px, 6.2px);
+            transform: rotate(45deg) translate(9px, 6.2px);
+  }
+  .show__menu .banner .banner__header .banner__hamburguer #line3 {
+    -webkit-transform: rotate(-45deg) translate(0.25rem, -0.25rem);
+            transform: rotate(-45deg) translate(0.25rem, -0.25rem);
   }
 }
 /*# sourceMappingURL=style.css.map */

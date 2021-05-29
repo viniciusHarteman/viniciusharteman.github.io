@@ -753,7 +753,10 @@
                 .banner__hamburguer{
                     right: 270px;
                     #line1{
-                        transform: rotate(45deg) translate(9px, 6px);
+                        transform: rotate(45deg) translate(9px, 6.2px);
+                    }
+                    #line3{
+                        transform: rotate(-45deg) translate(.25rem, -.25rem);
                     }
                 }
             }
