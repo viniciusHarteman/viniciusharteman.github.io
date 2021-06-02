@@ -545,8 +545,8 @@ body {
     min-height: 80vh;
     -ms-grid-columns: (10%)[10];
         grid-template-columns: repeat(10, 10%);
-    -ms-grid-rows: (10%)[6];
-        grid-template-rows: repeat(6, 10%);
+    -ms-grid-rows: (20%)[6];
+        grid-template-rows: repeat(6, 20%);
     padding: 0 3%;
   }
   .knowledge__page .knowledge__content .knowledge__div div {
