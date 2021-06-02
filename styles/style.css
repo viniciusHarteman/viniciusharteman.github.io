@@ -779,6 +779,7 @@ body {
 
 .contacts__page .contacts__content .img__contact {
   width: 100%;
+  max-width: 360px;
   height: 18rem;
   background-image: url(../Images/contatoimg.png);
   background-size: cover;
@@ -817,6 +818,7 @@ body {
   }
   .contacts__page .contacts__content .img__contact {
     width: 60%;
+    max-width: none;
     height: 25rem;
   }
   .contacts__page .contacts__content .container__left {

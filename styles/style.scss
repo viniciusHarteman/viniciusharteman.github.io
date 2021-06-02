@@ -645,9 +645,11 @@
         flex-direction: column;
         .img__contact{
             width: 100%;
+            max-width: 360px;
             height: 18rem;
             background-image: url(../Images/contatoimg.png);
             background-size: cover;
+
         }
         .info__left{
             width: 16rem;
@@ -680,6 +682,7 @@
             padding-left: 60px;
             .img__contact{
                 width: 60%;
+                max-width: none;
                 height: 25rem;
             }
             .container__left{
