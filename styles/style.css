@@ -388,7 +388,12 @@ body {
 
 .page__about .about__content div {
   padding: 4%;
-  background-color: rgba(238, 229, 229, 0.52);
+  background-color: rgba(238, 229, 229, 0.87);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(238, 229, 229, 0.87)), to(rgba(238, 229, 229, 0.87))), url(../Images/img_about.png);
+  background-image: linear-gradient(rgba(238, 229, 229, 0.87), rgba(238, 229, 229, 0.87)), url(../Images/img_about.png);
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   -webkit-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
           box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
 }
@@ -408,6 +413,7 @@ body {
     background-position-y: center;
   }
   .page__about .about__content div {
+    background-image: none;
     margin-top: 4%;
     width: 55%;
     -webkit-box-shadow: 9px 9px 7px rgba(0, 0, 0, 0.5);

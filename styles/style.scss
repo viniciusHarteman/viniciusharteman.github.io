@@ -315,6 +315,10 @@
         div{
             padding: 4%;
             background-color:$background-page2;
+            background-image:linear-gradient($background-page2, $background-page2), url(../Images/img_about.png);
+            background-size: 150%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
             box-shadow:4px 4px 5px rgba(0, 0, 0, 0.5);
             p{
                 margin-bottom: 16px;
@@ -332,6 +336,7 @@
             background-position-x: right;
             background-position-y:center ;
             div{
+                background-image: none;
                 margin-top: 4%;
                 width: 55%;
                 box-shadow: 9px 9px 7px rgba(0, 0, 0, 0.5);
