@@ -410,26 +410,32 @@
                     text-indent: 0;
                 }
             }
+            //HTML
            & :first-child{
                grid-column: 2/2;
                grid-row: 1/6;
            }
+           //CSS
            & :nth-child(2){
                grid-column: 3/3;
                grid-row: 2/7;
            }
+           //JS
            & :nth-child(3){
                grid-column: 1/1;
                grid-row: 3/8;
            }
+           //Python
            & :nth-child(4){
             grid-column: 3/3;
             grid-row: 17/20;
             }
+            //Sass
             & :nth-child(5){
                 grid-column: 2/2;
                 grid-row: 19/20;
             }
+            //C++
            & :last-child{
                grid-column: 1/1;
                grid-row: 16/20;
@@ -439,11 +445,11 @@
     // tela minimo 1300px
     @media screen and (min-width: 1300px ){
         .knowledge__content{
+            
             min-height: 80vh;
+            grid-template-columns:repeat(10, 10%);
+            grid-template-rows: repeat(6, 10%);
             padding: 0 3%;
-            grid-template-columns: repeat(41, 30px);
-            grid-template-rows: repeat(27, 19px);
-            background-size:110vh;
             .knowledge__div{
                 div{
                     text-shadow: 2px 1px 2px #000;
@@ -460,30 +466,36 @@
                     font-size: 16px;
                 }
             }
-           & :first-child{
-               grid-column: 3/13;
-               grid-row: 2/4;
-           }
-           & :nth-child(2){
-               grid-column: 27/38;
-               grid-row: 3/5;
-           }
-           & :nth-child(3){
-               grid-column: 6/14;
-               grid-row: 10/15;
-           }
-           & :nth-child(4){
-            grid-column: 1/11;
-            grid-row: 19/22;
+            //HTML
+            & :first-child{
+                grid-column: 4/6;
+                grid-row: 1/3;
             }
-            & :nth-child(5){
-                grid-column: 32/42;
-                grid-row: 12/15;
+            //CSS
+            & :nth-child(2){
+                grid-column: 8/10;
+                grid-row: 2/4;
             }
-           & :last-child{
-               grid-column: 30/40;
-               grid-row: 22/26;
-           }
+            //JS
+            & :nth-child(3){
+                grid-column: 9/10;
+                grid-row: 4/5;
+            }
+            //Python
+            & :nth-child(4){
+             grid-column: 3/5;
+             grid-row: 6/6;
+             }
+             //Sass
+             & :nth-child(5){
+                 grid-column: 2/4;
+                 grid-row: 3/5;
+             }
+             //C++
+            & :last-child{
+                grid-column: 7/9;
+                grid-row: 6/6;
+            }
         }
     }
 }
